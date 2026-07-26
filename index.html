@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leopoldo Stanula | UX & Graphic Designer</title>
+  <meta name="description" content="Portfólio de Leopoldo Stanula, Designer de Experiência do Usuário (UX) e Design Gráfico no Brasil.">
+  
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header / Navigation -->
+  <header class="header">
+    <div class="lang-switch" id="lang-switch-toggle" role="button" tabindex="0" aria-label="Alternar Idioma">
+      <button class="lang-btn active" id="btn-en" data-lang="en">
+        <span class="flag">🇺🇸</span> English
+      </button>
+      <button class="lang-btn" id="btn-pt" data-lang="pt">
+        <span class="flag">🇧🇷</span> Português (BR)
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero / Introduction Section -->
+  <main>
+    <section class="intro-section">
+      <div class="intro-container">
+        
+        <!-- Left Content Column -->
+        <div class="intro-content">
+          <h1 class="intro-title" id="intro-title">
+            I'm <span class="highlight-name">Leopoldo Stanula,</span>
+          </h1>
+          <p class="intro-subtitle" id="intro-subtitle">
+            Designer, based in Brazil.
+          </p>
+
+          <!-- Ticker / Service Marquee -->
+          <div class="ticker-wrapper">
+            <div class="ticker-content">
+              <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial Design</span> • <span>UX / UI Design</span> • <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial Design</span> • <span>UX / UI Design</span>
+            </div>
+          </div>
+
+          <!-- CTA Buttons -->
+          <div class="cta-group">
+            <a href="#portfolio-cards" class="btn btn-primary" id="btn-portfolio">Check portfolio</a>
+            <a href="#contact" class="btn btn-secondary" id="btn-contact">Get in touch</a>
+          </div>
+
+          <!-- PDF Link -->
+          <div class="pdf-link-container">
+            <a href="#" class="pdf-link" id="pdf-link">
+              <svg class="eye-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M2 12s3-7 10-7 10 7 10 7-3 7-10 7-10-7-10-7Z"></path>
+                <circle cx="12" cy="12" r="3"></circle>
+              </svg>
+              <span>Or, check the pdf version</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Right Visual Column (Designer Image - exact original without extra effects) -->
+        <div class="intro-visual">
+          <div class="image-wrapper">
+            <img src="assets/images/designer.png" alt="Leopoldo Stanula - UX Designer" class="designer-img">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Cards Section: Design Gráfico & UX Design -->
+    <section class="portfolio-cards-section" id="portfolio-cards">
+      <div class="cards-container">
+        <h2 class="section-title" id="cards-title">Explore My Work</h2>
+        
+        <div class="cards-grid">
+          <!-- Graphic Design Card -->
+          <a href="#graphic-design" class="portfolio-card graphic-card" id="card-graphic">
+            <div class="card-badge">Design Visual</div>
+            <div class="card-content">
+              <h3 class="card-title">Design Gráfico</h3>
+              <p class="card-description" id="card-graphic-desc">
+                Branding, Editorial, Motion Graphics e Identidade Visual marcante.
+              </p>
+              <div class="card-action">
+                <span>Ver projetos</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </div>
+            </div>
+          </a>
+
+          <!-- UX Design Card -->
+          <a href="#ux-design" class="portfolio-card ux-card" id="card-ux">
+            <div class="card-badge">Product Design</div>
+            <div class="card-content">
+              <h3 class="card-title">UX Design</h3>
+              <p class="card-description" id="card-ux-desc">
+                Pesquisa de usuário, Arquitetura de Informação, Wireframes e Interfaces Interativas.
+              </p>
+              <div class="card-action">
+                <span>Ver case studies</span>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
