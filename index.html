@@ -1,18 +1,23 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Leopoldo Stanula | UX & Graphic Designer</title>
-  <meta name="description" content="Portfólio de Leopoldo Stanula, Designer de Experiência do Usuário (UX) e Design Gráfico no Brasil.">
-  
+  <meta name="description"
+    content="Portfólio de Leopoldo Stanula, Designer de Experiência do Usuário (UX) e Design Gráfico no Brasil.">
+
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
-  
+  <link
+    href="https://fonts.googleapis.com/css2?family=Archivo+Black&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+    rel="stylesheet">
+
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
   <!-- Interactive Dot Grid Background Canvas -->
   <canvas id="bg-canvas"></canvas>
@@ -20,17 +25,63 @@
   <main>
     <section class="intro-section">
       <div class="intro-container">
-        
+
         <!-- Left Content Column -->
         <div class="intro-content">
           <!-- Language Switcher inline above text -->
           <div class="lang-switch-wrapper">
             <div class="lang-switch" id="lang-switch-toggle" role="button" tabindex="0" aria-label="Alternar Idioma">
               <button class="lang-btn active" id="btn-en" data-lang="en">
-                <span class="flag-icon">🇺🇸</span> English
+                <svg class="flag-icon" width="18" height="14" viewBox="0 0 640 480">
+                  <g fill-rule="evenodd">
+                    <g stroke-width="1pt">
+                      <path fill="#bd3d44" d="M0 0h640v480H0z" />
+                      <path stroke="#fff" d="M0 55.4h640M0 129.2h640M0 203h640M0 276.9h640M0 350.8h640M0 424.6h640"
+                        stroke-width="36.9" />
+                      <path fill="#192f5d" d="M0 0h280v258.5H0z" />
+                      <g fill="#fff">
+                        <g id="s18">
+                          <g id="s9">
+                            <g id="s5">
+                              <g id="s4">
+                                <path id="s"
+                                  d="M0-13.5l3.2 9.8h10.3l-8.3 6 3.2 9.8L0 16.2l-8.4 6 3.2-9.8-8.3-6h10.3z" />
+                                <use href="#s" x="40" />
+                                <use href="#s" x="80" />
+                                <use href="#s" x="120" />
+                                <use href="#s" x="160" />
+                              </g>
+                              <use href="#s" x="200" />
+                            </g>
+                            <use href="#s" y="40" />
+                            <use href="#s" y="80" />
+                            <use href="#s" y="120" />
+                            <use href="#s" y="160" />
+                          </g>
+                          <use href="#s" x="20" y="20" />
+                          <use href="#s" x="60" y="20" />
+                          <use href="#s" x="100" y="20" />
+                          <use href="#s" x="140" y="20" />
+                          <use href="#s" x="180" y="20" />
+                        </g>
+                        <use href="#s18" x="20" y="40" />
+                        <use href="#s18" x="20" y="80" />
+                        <use href="#s18" x="20" y="120" />
+                        <use href="#s18" x="20" y="160" />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+                <span>English</span>
               </button>
               <button class="lang-btn" id="btn-pt" data-lang="pt">
-                <span class="flag-icon">🇧🇷</span> Português (BR)
+                <svg class="flag-icon" width="18" height="14" viewBox="0 0 640 480">
+                  <path fill="#009b3a" d="M0 0h640v480H0z" />
+                  <path fill="#fedf00" d="M320 40L600 240 320 440 40 240z" />
+                  <circle cx="320" cy="240" r="120" fill="#002776" />
+                  <path fill="#fff" d="M180 240a145 145 0 0 0 270 40 140 140 0 0 1-270-40z" />
+                </svg>
+                <span>Português (BR)</span>
               </button>
             </div>
           </div>
@@ -45,7 +96,9 @@
           <!-- Ticker / Service Marquee -->
           <div class="ticker-wrapper">
             <div class="ticker-content">
-              <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial Design</span> • <span>UX / UI Design</span> • <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial Design</span> • <span>UX / UI Design</span>
+              <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial Design</span> • <span>UX / UI
+                Design</span> • <span>Motion Graphics</span> • <span>Graphic Design</span> • <span>Editorial
+                Design</span> • <span>UX / UI Design</span>
             </div>
           </div>
 
@@ -66,41 +119,25 @@
       </div>
     </section>
 
-    <!-- Cards Section: Design Gráfico & UX Design -->
+    <!-- Projects Showcase Section: 3 Cards Per Row & Tab Switcher -->
     <section class="portfolio-cards-section" id="portfolio-cards">
       <div class="cards-container">
-        
-        <div class="cards-grid">
-          <!-- Graphic Design Card -->
-          <a href="#graphic-design" class="portfolio-card graphic-card" id="card-graphic">
-            <div class="card-badge">Design Visual</div>
-            <div class="card-content">
-              <h3 class="card-title">Design Gráfico</h3>
-              <p class="card-description" id="card-graphic-desc">
-                Branding, Editorial, Motion Graphics e Identidade Visual marcante.
-              </p>
-              <div class="card-action">
-                <span>Ver projetos</span>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </div>
-            </div>
-          </a>
 
-          <!-- UX Design Card -->
-          <a href="#ux-design" class="portfolio-card ux-card" id="card-ux">
-            <div class="card-badge">Product Design</div>
-            <div class="card-content">
-              <h3 class="card-title">UX Design</h3>
-              <p class="card-description" id="card-ux-desc">
-                Pesquisa de usuário, Arquitetura de Informação, Wireframes e Interfaces Interativas.
-              </p>
-              <div class="card-action">
-                <span>Ver case studies</span>
-                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
-              </div>
-            </div>
-          </a>
+        <!-- Category Navigation Tabs -->
+        <div class="portfolio-tabs">
+          <button class="tab-btn active" id="tab-graphic" data-category="graphicDesign">
+            <span class="tab-title">Design Gráfico</span>
+          </button>
+          <button class="tab-btn" id="tab-ux" data-category="productDesign">
+            <span class="tab-title">UX / Product Design</span>
+          </button>
         </div>
+
+        <!-- 3 Cards Per Row Grid Container -->
+        <div class="projects-grid-3cols" id="projects-grid">
+          <!-- Dynamic cards injected via script.js -->
+        </div>
+
       </div>
     </section>
 
@@ -131,25 +168,38 @@
           <!-- Social Buttons -->
           <div class="social-buttons">
             <a href="https://wa.me/5541992085857" target="_blank" rel="noopener" class="social-pill">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+              </svg>
+              <span class="pill-divider">|</span>
               <span>Whatsapp</span>
             </a>
 
             <a href="https://t.me/leopoldostanula" target="_blank" rel="noopener" class="social-pill">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="22" y1="2" x2="11" y2="13"></line>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
+              </svg>
+              <span class="pill-divider">|</span>
               <span>Telegram</span>
             </a>
 
             <a href="#" class="social-pill">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path></svg>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+              </svg>
+              <span class="pill-divider">|</span>
               <span>WeChat</span>
             </a>
           </div>
 
-          <!-- Location & Work status + Icons -->
+          <!-- Location & Work status + Icons Row -->
           <div class="contacts-meta-row">
             <div class="location-status">
-              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path><circle cx="12" cy="10" r="3"></circle></svg>
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                <circle cx="12" cy="10" r="3"></circle>
+              </svg>
               <span>Curitiba, Brazil</span>
               <span class="meta-divider">|</span>
               <span class="meta-tag">AVAILABLE FOR REMOTE WORK</span>
@@ -157,13 +207,19 @@
 
             <div class="social-icons">
               <a href="https://linkedin.com" target="_blank" rel="noopener" aria-label="LinkedIn" class="icon-link">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h14m-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.28 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93h2.75M6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37h2.77z" />
+                </svg>
               </a>
               <a href="https://behance.net" target="_blank" rel="noopener" aria-label="Behance" class="icon-link">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M22 7h-7V5h7v2zm-1.708 6.425c.074.88-.415 2.575-2.617 2.575-2.127 0-3.14-1.398-3.14-3.11 0-2.317 1.472-3.39 3.256-3.39 2.296 0 2.76 1.83 2.57 3.925h-3.95c.01 1.05.65 1.25 1.37 1.25.75 0 1.09-.37 1.15-.975h1.361zm-4.381-1.25h2.59c-.06-.85-.45-1.31-1.24-1.31-.83 0-1.28.47-1.35 1.31zM9.54 13.56c.94-.38 1.58-1.13 1.58-2.28 0-1.92-1.33-2.78-3.41-2.78H2v10.5h6.24c2.23 0 3.76-1.04 3.76-3.05 0-1.35-.91-2.11-2.46-2.39zM5.18 10.37h2.09c.87 0 1.46.29 1.46 1.07 0 .82-.62 1.12-1.46 1.12H5.18v-2.19zm2.4 6.78H5.18v-2.44h2.4c.95 0 1.62.33 1.62 1.22 0 .91-.67 1.22-1.62 1.22z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M22 7h-7V5h7v2zm-1.708 6.425c.074.88-.415 2.575-2.617 2.575-2.127 0-3.14-1.398-3.14-3.11 0-2.317 1.472-3.39 3.256-3.39 2.296 0 2.76 1.83 2.57 3.925h-3.95c.01 1.05.65 1.25 1.37 1.25.75 0 1.09-.37 1.15-.975h1.361zm-4.381-1.25h2.59c-.06-.85-.45-1.31-1.24-1.31-.83 0-1.28.47-1.35 1.31zM9.54 13.56c.94-.38 1.58-1.13 1.58-2.28 0-1.92-1.33-2.78-3.41-2.78H2v10.5h6.24c2.23 0 3.76-1.04 3.76-3.05 0-1.35-.91-2.11-2.46-2.39zM5.18 10.37h2.09c.87 0 1.46.29 1.46 1.07 0 .82-.62 1.12-1.46 1.12H5.18v-2.19zm2.4 6.78H5.18v-2.44h2.4c.95 0 1.62.33 1.62 1.22 0 .91-.67 1.22-1.62 1.22z" />
+                </svg>
               </a>
               <a href="https://youtube.com" target="_blank" rel="noopener" aria-label="YouTube" class="icon-link">
-                <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+                  <path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z" />
+                </svg>
               </a>
             </div>
           </div>
@@ -178,6 +234,33 @@
 
   </main>
 
+  <!-- Project Details Modal Overlay -->
+  <div class="project-modal-overlay" id="project-modal" aria-hidden="true" role="dialog">
+    <div class="project-modal-content">
+      <button class="modal-close-btn" id="modal-close" aria-label="Fechar projeto">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+          stroke-linecap="round" stroke-linejoin="round">
+          <line x1="18" y1="6" x2="6" y2="18"></line>
+          <line x1="6" y1="6" x2="18" y2="18"></line>
+        </svg>
+      </button>
+
+      <div class="modal-body">
+        <div class="modal-header">
+          <div class="modal-tags" id="modal-tags"></div>
+          <h2 class="modal-title" id="modal-title"></h2>
+          <p class="modal-subtitle" id="modal-subtitle"></p>
+          <div class="modal-description" id="modal-description"></div>
+        </div>
+
+        <!-- Ordered Images List Container -->
+        <div class="modal-gallery" id="modal-gallery"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="projects.js"></script>
   <script src="script.js"></script>
 </body>
+
 </html>
