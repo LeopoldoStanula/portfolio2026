@@ -564,16 +564,16 @@ const PROJECTS_DATA = {
         pt: "MIX é uma plataforma para pedidos de comidas focada em pessoas que buscam uma maior personalização do seu pedido e escolhas mais saudáveis. ",
         en: "MIX is a food ordering platform focused on people seeking greater personalization of their order and healthier choices."
       },
-      thumbnail: "assets/ProductDesign/appMIX/thumb.png",
+      thumbnail: "assets/ProductDesign/AppMix/thumb.png",
       images: [
         {
-          url: "assets/ProductDesign/appMIX/thumb.png",
+          url: "assets/ProductDesign/AppMix/thumb.png",
         },
         {
-          url: "assets/ProductDesign/appMIX/Montagem.png",
+          url: "assets/ProductDesign/AppMix/Montagem.png",
           caption: { pt: "A principal funcionalidade do aplicativo é a função 'MIX' onde o usuário salva e seus pratos personalizados para pedir novamente com facilidade mais tarde", en: "The main functionality of the application is the 'MIX' function where the user saves their personalized dishes to order again easily later" }
         },
-        { url: "assets/ProductDesign/appMIX/WireFrame4.png" },
+        { url: "assets/ProductDesign/AppMix/WireFrame4.png" },
       ]
     }
   ]
