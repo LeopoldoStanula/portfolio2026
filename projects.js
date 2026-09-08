@@ -39,90 +39,90 @@ const PROJECTS_DATA = {
         pt: "Projeto editorial desenvolvido para tornar as diretrizes de acessibilidade visual mais acessíveis e orientar designers, desenvolvedores e game designers na criação de jogos digitais mais inclusivos. Foram aplicadas metodologias de pesquisa exploratória e estudos de caso, permitindo uma maior imersão no objeto de estudo e uma compreensão aprofundada de seus desafios e possíveis soluções.",
         en: "Editorial project developed to make visual accessibility guidelines more accessible and to guide designers, developers, and game designers in creating more inclusive digital games. Exploratory research methodologies and case studies were applied, enabling greater immersion in the subject and a deeper understanding of its challenges and possible solutions."
       },
-      thumbnail: "assets/GraphicDesign/FoconoGame/Thumb.jpg",
+      thumbnail: "assets/GraphicDesign/FocoNoGame/Thumb.jpg",
       // 👇 ORDEM DAS FOTOS EXIBIDAS NO PROJETO (Altere a ordem aqui conforme preferir):
       images: [
         {
-          url: "assets/GraphicDesign/FoconoGame/FotoPoster3.png",
+          url: "assets/GraphicDesign/FocoNoGame/FotoPoster3.png",
           imageText: {
             en: "Focus on the Game | A visual accessibility manual for digital games | Leopoldo Leineker Stanula"
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/TccApresentacao_pages-to-jpg-0003.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/TccApresentacao_pages-to-jpg-0003.jpg",
           caption: { pt: "Após a realização do desk research, o problema foi definido com base em estatísticas recentes do IBGE e da PGB 2022, além de pesquisas sobre o cenário de desenvolvimento de jogos digitais no Brasil. Foram identificados dois problemas principais que o manual deveria abordar: 1) A maioria dos jogos digitais não incorpora a acessibilidade como parte fundamental do desenvolvimento desde o início. 2) A acessibilidade é frequentemente tratada como um complemento, algo a ser adicionado apenas ao final do desenvolvimento.", en: "After conducting the desk research, the problem was defined based on recent statistics from IBGE and PGB 2022, as well as research into the digital game development landscape in Brazil. Two main issues that the manual should address were identified: 1) Most digital games do not incorporate accessibility as a fundamental part of the development process from the beginning. 2) Accessibility is often treated as an add-on, something to be addressed only at the end of the development process." },
           imageText: {
             en: "People aged 40 to 49 represent 12.5%, and players over 50 make up 6.5% | Approximately 10.4% of gamers in Brazil report limitations in playing video games due to a disability | One-third of players use some accessibility feature, regardless of their limitations."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/TccApresentacao_pages-to-jpg-0005.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/TccApresentacao_pages-to-jpg-0005.jpg",
           caption: { pt: "A fase de pesquisa concentrou-se em um amplo levantamento sobre deficiência sob as perspectivas da medicina, do dicionário e da legislação, além de abordar acessibilidade digital, análises qualitativas relacionadas à ergonomia visual, normas para a construção de materiais editoriais e diretrizes para a construção de interfaces tipográficas. Também foram estudados conceitos relacionados às deficiências visuais e possíveis soluções para problemas de acessibilidade visual em jogos digitais.", en: "The research phase focused on an extensive investigation into disability from medical, dictionary, and legal perspectives. It also covered digital accessibility, qualitative analyses related to visual ergonomics, standards for the development of editorial materials, and guidelines for designing typographic interfaces. Concepts related to visual impairments and possible solutions to visual accessibility issues in digital games were also explored." },
           imageText: {
             en: "Research Methodology: An exploratory research and case study approach is employed, focusing on a bibliographic review of standards, definitions, insights, quantitative and qualitative data, statistics, approaches, and relevant terminology. | Objective: To facilitate the development of a best-practices manual for visual accessibility in digital games and enable greater immersion in the subject, providing an in-depth understanding of its challenges and solutions."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/TccApresentacao_pages-to-jpg-0012.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/TccApresentacao_pages-to-jpg-0012.jpg",
           caption: { pt: "Na fase de desenvolvimento, foi adaptada a metodologia de Design Thinking, contemplando as etapas de imersão, análise e ideação. Também foram utilizados os materiais obtidos durante a pesquisa exploratória.", en: "During the development phase, the Design Thinking methodology was adapted to include the stages of immersion, analysis, and ideation. The materials gathered during the exploratory research were also used throughout the process." },
           imageText: {
             en: "Development methodology: An adaptation of the Design Thinking methodology is used | Material gathered during the exploratory methodology is used | Phase -> Immersion -> How-to -> Reviewing existing solutions; researching similar examples; brainstorming; mind mapping; defining logical content structure. | Analysis -> Selection of color scheme/fonts; first phase of the written component (summary table); definition of the Design System; definition of page harmony and grid. | Ideation -> Generate concrete ideas based on research conducted during the analysis phase (prototypes); finalize texts to be used in the manual."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/Manual Desn - Soluções já existentes.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/Manual Desn - Soluções já existentes.jpg",
           caption: { pt: "Análise de plataformas com diretrizes: Foi realizada uma busca por plataformas, sites e artigos que oferecem conteúdos relacionados a diretrizes de acessibilidade em jogos digitais. Esses conteúdos foram listados e avaliados com base no número de diretrizes disponíveis, na relevância dessas diretrizes, na presença de exemplos visuais e no potencial de utilização no manual. A avaliação foi dividida em quatro níveis, representados por cores entre verde e vermelho: o verde indica maior potencial de utilização, enquanto o vermelho indica menor aderência aos objetivos da pesquisa.", en: "Platform Analysis with Guidelines: A search was conducted for platforms, websites, and articles offering content related to accessibility guidelines for digital games. These resources were listed and evaluated based on the number of available guidelines, their relevance, the presence of visual examples, and their potential use in the manual. The evaluation was divided into four levels, represented by colors ranging from green to red: green indicates greater potential for use, while red indicates lower alignment with the research objectives." },
           imageText: {
             en: "Circles (top to bottom): good; good/average; average/poor; poor | Columns (left to right): platforms; number of guidelines; relevance of visual guidelines; visual examples; potential for application in the manual; justifications."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/Manual Desn - Frame 1.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/Manual Desn - Frame 1.jpg",
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/Manual Desn - Estruturacao.png",
+          url: "assets/GraphicDesign/FocoNoGame/Manual Desn - Estruturacao.png",
           caption: { pt: "Mapa mental para decisões lógicas e criativas: A terceira etapa da fase de imersão consiste na criação de mapas mentais iniciais para orientar o processo criativo e lógico de definição do conteúdo do manual. Primeiramente, é realizada uma sessão para definir o estilo geral do manual, tanto gráfico quanto textual. Essa etapa também marca o início da estruturação do conteúdo escrito, dividida em duas etapas. A primeira busca definir a estrutura-base do conteúdo e as seções que poderão ser incluídas no manual. Em seguida, são formuladas perguntas sobre essas versões e, a partir das respostas, desenvolve-se uma nova versão com base nas modificações realizadas nas versões anteriores.", en: "Mind Mapping for Logical and Creative Decisions: The third stage of the immersion phase involves creating initial mind maps to guide the creative and logical process of defining the manual's content. Initially, a session is held to determine the manual's overall style, both graphic and textual. This stage also marks the beginning of the written content structure, which is divided into two steps. The first step focuses on establishing the basic content structure and the sections that may be included in the manual. Subsequently, questions are formulated about these versions, and a new version is developed based on the modifications made in the previous ones." },
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/TabelaResumo.png",
+          url: "assets/GraphicDesign/FocoNoGame/TabelaResumo.png",
           caption: { pt: "Resumo de conteúdo do manual: É criado um quadro-resumo dos conteúdos abordados para definir o nível de importância e relevância de cada assunto e estabelecer uma estrutura hierárquica a ser distribuída ao longo do manual. Esse resumo também permite validar a qualidade da estrutura proposta durante a fase de imersão.", en: "Manual Content Summary: A content summary chart is created to define the level of importance and relevance of each topic and establish a hierarchical structure to be distributed throughout the manual. This summary also helps validate the quality of the structure proposed during the immersion phase." },
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/PrintContrasteCoresPrincipaisDaltonismo.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/PrintContrasteCoresPrincipaisDaltonismo.jpg",
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/PrintContrasteCoresSecundariasDaltonismo copiar.jpg",
+          url: "assets/GraphicDesign/FocoNoGame/PrintContrasteCoresSecundariasDaltonismo copiar.jpg",
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/CoresfinaisManual.png",
+          url: "assets/GraphicDesign/FocoNoGame/CoresfinaisManual.png",
           caption: { pt: "Escolha de cores: São selecionadas paletas de cores capazes de abranger a identidade visual geral e separar as três partes principais do manual: ergonomia, interface e diretrizes, estando em conformidade com as diretrizes de contraste da WCAG 2.0.", en: "Color Selection: Color palettes are chosen to encompass the general visual identity and separate the three parts of the manual: ergonomics, interface, and guidelines, in compliance with WCAG 2.0 contrast guidelines." },
           imageText: {
             en: "White | Black | Primary | Secondary | Manual Identity | Ergonomics | Interface | Guidelines."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/PrototipoV1_1.jpeg"
+          url: "assets/GraphicDesign/FocoNoGame/PrototipoV1_1.jpeg"
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/PrototipoV1_2.jpeg",
+          url: "assets/GraphicDesign/FocoNoGame/PrototipoV1_2.jpeg",
           caption: {
             pt: "Primeiros protótipos impressos para testes A/B de legibilidade e leiturabilidade.", en: "First printed prototypes for A/B readability and legibility testing."
           }
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/MockuposPortfolio1.png"
+          url: "assets/GraphicDesign/FocoNoGame/MockuposPortfolio1.png"
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/MockuposPortfolio2.png"
+          url: "assets/GraphicDesign/FocoNoGame/MockuposPortfolio2.png"
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/MockuposPortfolio3.png"
+          url: "assets/GraphicDesign/FocoNoGame/MockuposPortfolio3.png"
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/IMG_5671.jpeg"
+          url: "assets/GraphicDesign/FocoNoGame/IMG_5671.jpeg"
         },
         {
-          url: "assets/GraphicDesign/FoconoGame/195a6adf-013b-4002-831d-a9b74ff60746.jpeg"
+          url: "assets/GraphicDesign/FocoNoGame/195a6adf-013b-4002-831d-a9b74ff60746.jpeg"
         },
       ]
     },
