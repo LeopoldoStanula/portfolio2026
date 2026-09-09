@@ -119,6 +119,9 @@ const PROJECTS_DATA = {
           url: "assets/GraphicDesign/FocoNoGame/MockuposPortfolio3.png"
         },
         {
+          url: "assets/GraphicDesign/FocoNoGame/MockuposPortfolio4.png"
+        },
+        {
           url: "assets/GraphicDesign/FocoNoGame/IMG_5671.jpeg"
         },
         {
