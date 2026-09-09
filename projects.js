@@ -175,7 +175,7 @@ const PROJECTS_DATA = {
           caption: { pt: "Esta identidade visual combina criatividade e design inovador com uma abordagem moderna em 3D. Inspirado nas letras dinâmicas 'E' e 'G' (de Expressão Gráfica).", en: "This visual identity combines creativity and innovative design with a modern 3D approach. Inspired by the dynamic letters 'E' and 'G' (from Graphic Expression)." }
         },
         {
-          url: "assets/GraphicDesign/Expressao grafica/Animacao3.gif",
+          url: "assets/GraphicDesign/Expressao grafica/animacao3.gif",
         },
         {
           url: "assets/GraphicDesign/Expressao grafica/Mockup_011_cracha2.png",
@@ -521,7 +521,7 @@ const PROJECTS_DATA = {
           url: "assets/GraphicDesign/ArtesVariadas/KV_CacaAosOvos.jpg",
         },
         {
-          url: "assets/GraphicDesign/ArtesVariadas/jogo.jpg",
+          url: "assets/GraphicDesign/ArtesVariadas/jogo.JPG",
         },
         {
           url: "assets/GraphicDesign/ArtesVariadas/Infográfico Bauhaus_Leopoldo Leineker Stanula_page-0001.jpg",
